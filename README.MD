@@ -5,5 +5,8 @@ This is simple Javacard Applet with this instructions:
 - encrypt  ( encrypt with AES mode CBC with no padding, only aligned data required, also sign with mac, max data size = 64B )
 - decrypt  ( verify mac, then decrypt data )
 
-MAC - ( size = 16 ) is appended at the end of ciphered data
+MAC ( size = 16 ) is appended at the end of ciphered data
+
+.script files are test scripts for Eclipse enviroment.
+text.txt if for physical card tested with GPshell.
 
